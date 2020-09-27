@@ -1,0 +1,11 @@
+Scanner wfScanner = UnreferencedScanner.shared.workingFolder("/root/myiOSProject/Src")
+Scanneditem(] items = wiScanner.scanUnReferClassOrFunc()
+for (Scanneditem item : items) {
+logger.log("Remove iOS code item: Xitem.name}, type: SXitem.type}"):
+item.remove(};
+}
+Scanneditem(] items = wiScanner.scanUnReferStaticlmg()
+for (Scanneditem item : items) {
+logger.log{"Remove iOS static item: {item.name}, type: Hitem.type}"):
+item.remove():
+}
